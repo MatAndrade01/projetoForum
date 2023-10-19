@@ -1,0 +1,148 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divMae {
+    background-color: #404142;
+    color: white;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+}
+
+.titulo {
+    text-align: left;
+    margin-left: 2vw;
+    font-size: 2vw;
+}
+
+.login {
+    display: flex;
+    
+    
+}
+
+.formulario {
+   background-image:linear-gradient(to right, black, rgb(0, 92, 119)) ;
+   width: 28vw;
+   padding-top: 5vw;
+   text-align: center;
+}
+
+.usuario {
+    text-align: left;
+    margin-left: 2vw;
+}
+
+#iusuario {
+    border-radius: 20vw;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    height: 2.1vw;
+    width: 25vw;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.397);
+}
+
+#iusuario:hover {
+    background-color: rgb(235, 234, 234);
+    box-shadow: 1px 2px 5px black;
+}
+
+.senha {
+    text-align: left;
+    margin-left: 2vw;
+}
+
+#isenha {
+    border-radius: 20vw;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    height: 2.1vw;
+    width: 25vw;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.397);
+}
+
+#isenha:hover {
+    background-color: rgb(235, 234, 234);
+    box-shadow: 1px 2px 5px black;
+}
+
+.botaoEntrar {
+    text-align: center;
+
+}
+
+.botaoEntrar > input  {
+    border-radius: 20px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    height: 2.2vw;
+    width: 11vw;
+    background-image: linear-gradient(to right, #404142, #232525);
+    color: white;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.397);
+    font-size: 1.1vw;
+    
+}
+
+.botaoEntrar > input:hover {
+    background-image: linear-gradient(to right, #323333, #171818);
+    box-shadow: 1px 2px 5px black;
+}
+
+.email > img{
+    height: 2.5vw;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.email > img:hover {
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.425);
+}
+
+.facebook > img{
+    height: 2.5vw;
+    border-radius: 50%;
+}
+
+.facebook > img:hover {
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.425);
+}
+
+.esqueciMinhaSenha {
+    text-align: right;
+    margin-right: 2vw;
+}
+
+.cadastro {
+    text-align: center;
+}
+
+div.imagem > img {
+height: 30.9vw;
+
+    
+}
+
+a:hover {
+    color: rgb(230, 228, 228);
+    text-decoration: solid;
+}
+
+p > a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.7vw;
+}
