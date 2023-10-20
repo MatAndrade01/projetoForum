@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divMae {
+    background-image:linear-gradient( to right, rgb(255, 255, 255rgb(255, 255, 255) 0));
+
+    height: 100%;
+    width: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    margin-top: 10vw;
+}
+
+.nav > a {
+    text-decoration: none;
+    color: black;
+    font-size: 1vw;
+}
+
+.nav > a:hover {
+    color: rgb(24, 23, 23);
+    
+}
+
+.pesquisa {
+    display: flex;
+    margin-left: 43vw;
+}
+
+.barraDePesquisa > input {
+    box-shadow: 0 0 0 0;
+    border: 1px solid black;
+    outline: 0;
+    border-radius: 20px;
+    width: 17vw;
+    height: 2.6vw;
+}
+
+.botaoBuscar > input {
+    background-color: black;
+    font-size: 1vw;
+    color: white;
+    position: absolute;
+    margin-top: 0.3vw;
+    margin-left: -5.3vw;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-radius: 20px;
+    height: 2vw;
+    width: 5vw;
+}
+
+.botaoBuscar > input:hover {
+    background-color: rgb(48, 48, 48);
+}
+
+.noticiaPrincipal {
+    height: 10vw;
+    width: 10vw;
+}
+
+.nJavaScript > img {
+    width: 10vw;
+}
