@@ -1,18 +1,18 @@
 * {
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
 }
 
-.body {
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .divMae {
     background-color: #404142;
     color: white;
-    position: fixed;
     height: 100%;
     width: 100%;
+    position: fixed;
     justify-content: center;
     flex-direction: row;
     align-items: center;
@@ -25,12 +25,18 @@
     font-size: 2vw;
 }
 
-.login {
+.texto01 {
+    text-align: left;
+    margin-left: 2vw;
+    font-size: 1vw;
+}
+
+.recuperarSenha {
     display: flex;
 }
 
 .formulario {
-   background-image:linear-gradient(to right, rgb(0, 92, 119), rgb(0, 0, 0)) ;
+    background-image:linear-gradient(to right, rgb(0, 92, 119), rgb(0, 0, 0)) ;
    width: 55vw;
    padding-top: 5vw;
 
@@ -42,10 +48,10 @@
 }
 
 #iusuario {
-    border-radius: 20vw;
-    box-shadow: 0 0 0 0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px;
     border: 0 none;
-    outline: 0;
+    outline: 0px;
     height: 2.1vw;
     width: 25vw;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.397);
@@ -57,12 +63,12 @@
     box-shadow: 1px 2px 5px black;
 }
 
-.senha {
+.email {
     text-align: left;
     margin-left: 2vw;
 }
 
-#isenha {
+#iemail {
     border-radius: 20vw;
     box-shadow: 0 0 0 0;
     border: 0 none;
@@ -73,17 +79,23 @@
     margin-left: 2vw;
 }
 
-#isenha:hover {
+#iemail:hover {
     background-color: rgb(235, 234, 234);
     box-shadow: 1px 2px 5px black;
 }
 
-.botaoEntrar {
+.texto02 {
+    text-align: left;
+    margin-left: 2vw;
+    font-size: 1vw;
+}
+
+.botaoEnviar {
     margin-left: 10vw;
 
 }
 
-.botaoEntrar > input  {
+.botaoEnviar > input  {
     border-radius: 20px;
     box-shadow: 0 0 0 0;
     border: 0 none;
@@ -97,45 +109,21 @@
     
 }
 
-.botaoEntrar > input:hover {
+.botaoEnviar > input:hover {
     background-image: linear-gradient(to right, #323333, #171818);
     box-shadow: 1px 2px 5px black;
 }
 
-.email > img{
-    height: 2.5vw;
-    border-radius: 50%;
-    margin-right: 5px;
-    margin-left: 13vw;
-}
 
-.email > img:hover {
-    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.425);
-}
-
-.facebook > img{
-    height: 2.5vw;
-    border-radius: 50%;
-}
-
-.facebook > img:hover {
-    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.425);
-}
-
-.esqueciMinhaSenha {
-    text-align: right;
-    margin-right: 28vw;
-}
-
-.cadastro {
-    margin-left: 11.2vw;
+.login {
+    margin-left: 12.5vw;
 }
 
 div.imagem > img {
     position: absolute;
     margin-left: -26vw;
     margin-top: 3vw;
-    height: 25vw;
+    height: 22vw;
 }
 
 a:hover {
@@ -146,5 +134,5 @@ a:hover {
 p > a {
     text-decoration: none;
     color: white;
-    font-size: 0.7vw;
+    font-size: 0.8vw;
 }
