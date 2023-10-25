@@ -1,221 +1,293 @@
-*{
-    margin: 0;
-    padding: 0;
-
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-body{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: #404142;
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
-.termo{
-   color:#ffffff;
-   margin-top: 20px;
-   margin-left: 13vw;
-   font-size: 1vw;
-}
 
-.letra{
-    margin-left: 10px;
-}
-
-.gene{
-    margin-right: 3px;
-}
-
-.container{
-    margin-top: 40px;
-    width:80%;
-    height: 92vh;
-    display: flex;
+.divMae {
+    background-color: #404142;
     position: fixed;
+    height: 100%;
+    width: 100%;
+    color: white;
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    display: flex;
-}
-.backgroud {
-    background-image:linear-gradient(to right, rgb(0, 92, 119), rgb(0, 0, 0)) ;
-    width: 90vw;
-    height: 40vw;
-}
-.form-image > img{
-  position: absolute;
-  margin-top: -15vw;
-  margin-left: 3vw;
-  height: 35vw;
+    display: flex
 }
 
-.form{
-    width: 50%;
+.formulario {
+    background-image:linear-gradient(to right, rgb(0, 92, 119), rgb(0, 0, 0)) ;
+    width: 80vw;
+    height: 100%;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.titulo > h2 {
+    font-size: 2vw;
+    margin-left: 1vw;
+}
+
+.formularioBaixo {
+    display: flex;
+    margin-top: 3vw;
+}
+
+.inputNome {
+    margin-left: 1vw;
+}
+
+.nomeInput {
+    font-size: 1vw;
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.caixaDeTextoNome > input {
+    width: 20vw;
+    height: 1.9vw;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-radius: 20px;
+    font-size: 1vw;
+}
+
+.caixaDeTextoNome > input:hover {
+    background-color: rgb(212, 209, 209);
+    cursor: pointer;
+}
+
+.inputEmail {
+    margin-left: 1vw;
+}
+
+.emailInput {
+    font-size: 1vw;
+    margin-bottom: 0px;
+}
+
+.caixaDeTextoEmail > input {
+    width: 20vw;
+    height: 1.9vw;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-radius: 20px;
+    font-size: 1vw
+}
+
+.caixaDeTextoEmail > input:hover {
+    background-color: rgb(212, 209, 209);
+    cursor: pointer;
+}
+
+.inputTelefone {
+    margin-left: 1vw;
+}
+
+.telefoneInput {
+    font-size: 1vw;
+    margin-bottom: 0px;
+}
+
+.caixaDeTextoTelefone > input {
+    height: 1.9vw;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-radius: 20px;
+    font-size: 1vw;
+}
+
+.caixaDeTextoTelefone > input:hover {
+    background-color: rgb(212, 209, 209);
+    cursor: pointer;
+}
+
+.formularioBaixo02 {
+    display: flex;
+    margin-top: 3vw;
+}
+
+.inputData {
+    margin-left: 1vw;
+}
+
+.dataInput {
+    font-size: 1vw;
+    margin-bottom: 0px;
+}
+
+.caixaDeTextoData > input {
+    height: 1.9vw;
+    width: 10vw;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-radius: 20px;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.caixaDeTextoData > input:hover {
+    background-color: rgb(212, 209, 209);
+    cursor: pointer;
+}
+
+.inputSenha {
+    margin-left: 1vw;
+}
+
+.senhaInput{
+    font-size: 1vw;
+    margin-bottom: 0px;
+}
+
+.caixaDeTextoSenha > input {
+    height: 1.9vw;
+    width: 15vw;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-radius: 20px;
+    font-size: 1vw;
+}
+
+.caixaDeTextoSenha > input:hover {
+    background-color: rgb(212, 209, 209);
+    cursor: pointer;
+}
+
+.inputConfirmarSenha {
+    margin-left: 1vw;
+}
+
+.confirmarSenhaInput {
+    font-size: 1vw;
+    margin-bottom: 0px;
+}
+
+.caixaDeTextoConfirmarSenha > input {
+    height: 1.9vw;
+    width: 15vw;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-radius: 20px;
+    font-size: 1vw;
+}
+
+.caixaDeTextoConfirmarSenha > input:hover {
+    background-color: rgb(212, 209, 209);
+    cursor: pointer;
+}
+
+.tituloGeneros > h4 {
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    text-align: center;
+}
+
+.generos {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-    padding: 2rem;
-
+    margin-top: 1vw;
 }
 
-.form-header{
-    margin-bottom: 3rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-.login-button{
-    display: flex;
-    align-items: center;
-}
-
-.login-button button{
-    border: none;
-    background-image: linear-gradient(to right, #404142, #232525);
-    padding: 0.5vw;
+.inputGenero1 {
+    margin-left: 1vw;
     font-size: 1vw;
-    border-radius: 5px;
-    color: #fff;
-    text-decoration: none;
-    width: 7vw;
 }
 
-.login-button button:hover{
-    background-image: linear-gradient(to right, #323333, #171818);
-    box-shadow: 1px 2px 5px black;
-    cursor: pointer;
+.inputGenero1 > input {
+    height: 0.8vw;
 }
 
-.title{
+.inputGenero2 {
+    margin-left: 1vw;
     font-size: 1vw;
-    color: #ffffff;
-
-}
-.gender-title{color: #ffffff;}
-
-.input-group{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1rem 0;
 }
 
-.input-box{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1.1rem;
-    
+.inputGenero2 > input {
+    height: 0.8vw;
 }
 
-
-.input-box input{
-    margin: 0.6rem 0;
-    height: 2vw;
-    width: 11vw;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 1px 1px 6px black;
-    font-size: 0.8vw;
-
-}
-
-#nome:hover{
-    background-color: #e9e8e8;
-    cursor: pointer;
-}
-
-.input-box input:focus-visible{
-    outline: 1px solid rgb(207, 137, 7);
-}
-
-.input-box label{
+.inputGenero3 {
+    margin-left: 1vw;
     font-size: 1vw;
-    color: rgb(255, 255, 255);
-}
-.input-box input::placeholder{
-    color: rgb(168, 166, 166);
 }
 
-.gender-group{
-    display: flex;
-    margin-left: 13vw;
+.inputGenero3 > input {
+    height: 0.8vw;
 }
 
-.gender-title > h4 {
+.inputGenero4 {
+    margin-left: 1vw;
     font-size: 1vw;
-    margin-top: -2vw;
-    margin-left: 21.5vw;
-    position: absolute;
 }
-.gender-input{
+
+.inputGenero4 > input {
+    height: 0.8vw;
+}
+
+.termo {
+    margin-top: 1vw;
+}
+
+.termo > .inputConcordo {
+    display: flex;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    justify-content: center;
+}
+
+.concordoInput > input {
+    height: 1vw;
+    margin: 0;
     display: flex;
 }
 
-.gender-input label{
-    margin-right: 0.40rem;
-    font-size: 0.78rem;
-    font-weight: 600;
-    color: rgb(255, 255, 255);
+.concordoTexto {
+    font-size: 1vw;
+    margin-top: -0.2vw;
+    margin-left: 0.5vw;
+    display: flex;
 }
 
-.continue-button button{
+.botaoContinuar {
+    padding-bottom: 2vw;
+    margin-top: 1vw;
     text-align: center;
-    margin-top: 2vw;
-    margin-left: 20vw;
-    width: 7vw;
-    border: none;
-    background-image: linear-gradient(to right, #404142, #232525);
-    padding: 0.62rem;
-    border-radius: 5px;
-    cursor: pointer;
 }
-.continue-button button:hover{
+
+.botaoContinuar > input{
+    background-image: linear-gradient(to right, #404142, #232525);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.397);
+    color: white;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-radius: 20px;
+    font-size: 1vw;
+    height: 2vw;
+    width: 7vw;
+}
+
+.botaoContinuar > input:hover {
     background-image: linear-gradient(to right, #323333, #171818);
     box-shadow: 1px 2px 5px black;
 }
 
-.continue-button button a {
-    text-decoration: none;
-    font-size: 0.93rem;
-    font-weight: 600;
-    color: #fff;
-
-}
-
-@media screen and(max-width:1330px) {
-    .form-image{
-        display: none;
-    }
-   .container{
-    width: 50%;
-}
-
-.form{
-    width: 100%;
-}
- 
-}
-
-@media screen and (max-width:1064px) {
-    .container{
-        width: 90%;
-        height: auto;
-    }
-    .input-group{
-        flex-direction: column;
-        overflow-y: scroll;
-        flex-wrap: nowrap;
-        max-height: 10rem;
-        padding-right: 5rem;
-    }
-    .gender-input{
-        margin-top: 2rem;
-    }
-    .gender-group{
-        flex-direction: column;
-        
-    }
+.imagem > img {
+    position: absolute;
+    margin-left: 56vw;
+    margin-top: -26vw;
+    width: 25vw;
 }

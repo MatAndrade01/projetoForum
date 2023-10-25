@@ -3,95 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
     <link rel="stylesheet" href="/estilos/cadastro.css">
     <link rel="shortcut icon" href="/imagens/logoTipoSite.ico" type="image/x-icon">
-    <title>Cadastro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-
 <body>
-    <div class="container">
 
-        <div class="backgroud">
-            <div class="form">
-                <form action="#">
-                    <div class="form-header">
-                        <div class="title">
-                            <H1>Cadastre-se</H1>
+    <div class="divMae">
+        <div class="cadastro">
+            <div class="divformulario">
+                <form class="formulario">
+                    <div class="titulo">
+                        <h2>Cadastre-se</h2>
+                    </div>
+
+                    
+                    <div class="formularioBaixo">
+                        <div class="inputNome">
+                            <p class="nomeInput"><label for="inome"> Nome </label></p>
+                            <p class="caixaDeTextoNome"><input id="inome" type="text" name="nome" placeholder="Digite seu nome completo" required maxlength="30"></p>
                         </div>
-                        <div class="login-button">
-                        <button><a href="#"></a> Entrar</button>
+                        <div class="inputEmail">
+                            <p class="emailInput"><label for="iemail"> E-mail</label></p>
+                            <p class="caixaDeTextoEmail"><input id="iemail" type="email" name="email" placeholder="Digite seu E-mail" required maxlength="30"></p>
+                        </div>
+                        <div class="inputTelefone">
+                            <p class="telefoneInput"><label for="itelefone"> Telefone </label></p>
+                            <p class="caixaDeTextoTelefone"><input id="itelefone" type="number" name="telefone" placeholder="(xx) xxxx-xxxx" required></p>
                         </div>
                     </div>
-                    <div class="input-group">
-                        <div class="input-box">
-                            <label for="nome"> Nome </label>
-                            <input id="nome" type="text" name="nome" placeholder="Digite seu nome completo" required>
+ 
+                    <div class="formularioBaixo02">
+                        <div class="inputData">
+                            <p class="dataInput"><label for="idata"> Data de Nascimento </label></p>
+                            <p class="caixaDeTextoData"><input id="idata" type="date" name="data" required></p>
                         </div>
-                        <div class="input-box">
-                            <label for="email"> E-mail</label>
-                            <input id="nome" type="email" name="email" placeholder="Digite seu E-mail" required>
+                        <div class="inputSenha">
+                            <p class="senhaInput"><label for="isenha"> Senha</label></p>
+                            <p class="caixaDeTextoSenha"><input id="isenha" type="password" name="senha" placeholder="Digite sua senha" required minlength="8"></p>
                         </div>
-                        <div class="input-box">
-                            <label for="tell"> Telefone </label>
-                            <input id="nome" type="number" name="tell" placeholder="(xx) xxxx-xxxx" required>
-                        </div>
-                        <div class="input-box">
-                            <label for="data"> Data de Nascimento </label>
-                            <input id="nome" type="date" name="data" required>
-                        </div>
-                        <div class="input-box">
-                            <label for="senha"> Senha</label>
-                            <input id="nome" type="password" name="senha" placeholder="Digite sua senha" required>
-                        </div>
-                        <div class="input-box">
-                            <label for="cfsenha">Confirme sua senha </label>
-                            <input id="nome" type="password" name="cfsenha" placeholder="Digite novamente sua senha" required>
-                        </div>
-                        <div class="form-image">
-                            <img src="/imagens/login.png">
+                        <div class="inputConfirmarSenha">
+                            <p class="confirmarSenhaInput"><label for="iconfirmarSenha">Confirme sua senha </label></p>
+                            <p class="caixaDeTextoConfirmarSenha"><input id="iconfirmarSenha" type="password" name="confiramrSenha" placeholder="Digite novamente sua senha" required minlength="8"></p>
                         </div>
                     </div>
-        </div>
-
-                <div class="gender-input">
-                    <div class="gender-title">
+                
+                    <div class="tituloGeneros">
                         <h4>Gêneros</h4>
                     </div>
-                 
-                    <div class="gender-group">
-                        <div class="gender-input">
-                            <input type="radio" id="famale" name="gender">
-                            <label class="gene" for="famale">Feminino</label>
+                
+                    <div class="generos" >
+                        <div class="inputGenero1">
+                            <input type="radio" id="ifeminino" name="genero" value="feminino">
+                            <label for="ifeminino">Feminino</label>
                         </div>
-
-                        <div class="gender-input">
-                            <input type="radio" id="famale" name="gender">
-                            <label class="gene" for="male">Masculino </label>
+                        <div class="inputGenero2">
+                            <input type="radio" id="imasculino" name="genero" value="masculino">
+                            <label for="imasculino">Masculino </label>
                         </div>
-
-                        <div class="gender-input">
-                            <input type="radio" id="famale" name="gender">
-                            <label class="gene" for="others">Outros</label>
+                        <div class="inputGenero3">
+                            <input type="radio" id="ioutros" name="genero" value="outros">
+                            <label for="ioutros">Outros</label>
                         </div>
-
-                        <div class="gender-input">
-                            <input type="radio" id="famale" name="gender">
-                            <label class="gene" for="none">Prefiro não dizer</label>
+                        <div class="inputGenero4">
+                            <input type="radio" id="iprefiroNaoDizer" name="genero" value="prefironaodizer">
+                            <label for="iprefiroNaoDizer">Prefiro não dizer</label>
                         </div>
                     </div>
-                </div>
-
-                <div class="termo">
-                    <input type="checkbox" ><label class="letra">Li e concordo com os termos de privacidade</label>
-                   </div>
-                    
-
-                <div class="continue-button">
-                    <button><a href="#"> Continuar</a></button>
-                </div>
-            </form>
+                
+                    <div class="termo">
+                        <div class="inputConcordo">
+                            <p class="concordoInput"><input id="iconcordo" type="checkbox" required></p>
+                            <p class="concordoTexto"><label for="iconcordo">Li e concordo com os termos de privacidade</label></p>
+                        </div>
+                    </div>
+                
+                    <div class="botaoContinuar">
+                        <input type="submit" value="Cadastrar">
+                    </div>
+                </form>
+            </div>
+            <div class="imagem">
+                <img src="/imagens/login.png" alt="">
+            </div>
         </div>
-    </divi>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
-
 </html>

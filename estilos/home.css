@@ -434,10 +434,12 @@ i > img {
     height: 3vw;
     font-size: 1vw;
 }
+
 footer {
     position: absolute;
     width: 100%;
 }
+
 .footerBaixo {
     background-color: #000000;
     height: 100%;
