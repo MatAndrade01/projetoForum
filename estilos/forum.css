@@ -183,6 +183,7 @@ i > img {
     font-size: 1.2vw;
 }
 
+
 .tabelaSistemasOperacionais > table {
     margin-top: 1vw;
     margin-left: auto;
@@ -201,9 +202,32 @@ i > img {
     font-size: 1.2vw;
 }
 
+td > .novoPost {
+ 
+}
+
+.novoPost > a{
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 8vw;
+    height: 2vw;
+    background-image:linear-gradient(to right, rgb(0, 92, 119), rgb(0, 92, 119)) ;
+    color: white;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.397);
+    font-size: 1vw;
+}
+
+.novoPost > a:hover {
+    color: white;
+    background-image: linear-gradient(to right, #5f5f5f, #313131);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.616);
+}
 .topicoEmensagem {
     text-align: center;
 }
+
 
 th {
     font-size: 2vw;
