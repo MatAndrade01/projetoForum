@@ -80,25 +80,24 @@
 }
 
 .botaoEntrar {
-    margin-left: 10vw;
+    margin-left: 12.3vw;
 
 }
 
-.botaoEntrar > input  {
+.botaoEntrar > a  {
     border-radius: 20px;
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
-    height: 2.2vw;
-    width: 11vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
     background-image: linear-gradient(to right, #404142, #232525);
     color: white;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.397);
-    font-size: 1.1vw;
+    font-size: 1.5vw;
     
 }
 
-.botaoEntrar > input:hover {
+.botaoEntrar > a:hover {
     background-image: linear-gradient(to right, #323333, #171818);
     box-shadow: 1px 2px 5px black;
 }
